@@ -1,1 +1,213 @@
-<p style="font-size:20px;">YASTREBOVA VICTORIA</p>
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-color: #F5F7FA;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+      }
+
+      .section {
+        width: 50%;
+      }
+      
+    /* header */
+    .header {
+        font-size: 16px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .nav-list {
+        list-style: none;
+        display: flex;
+        justify-content:flex-end; 
+        align-items: center;  
+        margin-right: 45px;   
+    }
+
+    .nav-link {
+        color: #194f96;
+        padding: 0 50px 0px 0px;
+        line-height: 50px;
+        transition: .3s;
+        text-decoration: none;
+    }
+
+    li.nav-item {
+        cursor: pointer;
+    }
+
+    .nav-link:hover {
+        color: rgb(228, 47, 47);
+    }
+
+/* main container */
+    .main-container-section {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1200px;
+        background-color: #F5F7FA ;
+        margin: 30px 50px; 
+        box-shadow: 6px 6px 6px 20px rgba(0, 0, 0, 0.1) ;       
+    }
+
+/* main content section */
+    .about-main-content-section {
+        padding: 30px 70px;
+        margin-top: 0;
+    }
+
+/* about main header */
+    .main-header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 27px;
+        color: black;
+        margin: 0px auto 50px -5px;  
+    }
+
+/* about titles */
+    .about-titles {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 5px;
+        line-height: 27px;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+/* about description */
+    .about-me-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        color: rgb(74, 85, 72);
+    }
+
+/* about me section */
+    .about-me-section {
+        width: 500px;
+        margin: 0 0 60px 0;
+    }
+
+/* about experience section */
+    .about-experience-section{
+        margin: 0 0 40px 0; 
+    }
+
+/* about projects section */
+    .about-projects-section{
+        margin: 0 0 40px 0;  
+    }
+
+    .about-CV-Markdown {
+        color: #194f96;
+    }
+
+    .CV-Markdown-type {
+        text-decoration: none;
+    }
+
+/* about courses section */
+    .about-courses-section{
+        margin: 0 0 40px 0;   
+    }
+
+/* about languages section */
+    .about-languages-section{
+        margin: 0 0 40px 0; 
+        line-height: 100px;
+    }
+
+/* sidebar section */
+    .about-sidebar-section {
+        background-color: #C4BFDF;
+        width: 500px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .about-sidebar-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        color: #fff;
+        margin-left: 20px;
+    }  
+
+/* contacts section */
+    .contacts-type {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+        margin-right: 10px; 
+    }
+
+    .contacts-type-two {
+        color: #163053;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration: none;
+    }
+
+    .item{
+        color: #163053;
+    }
+
+/* footer section */
+    .about-footer {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-left:50px;
+        margin-right: 100px;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .github-link {
+        color: #194f96;
+        text-decoration: none
+    }
+
+    .about-GitHub {
+        padding-top: 15px;
+    }
+
+    .about-GitHub-position {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .github-link:hover {
+       color:rgb(228, 47, 47);
+       transition: .3s;
+    }
+
+    .about-date-position {
+        align-self: center;
+    }
+        
+    *{
+    box-sizing:border-box;
+    }
